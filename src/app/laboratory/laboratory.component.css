@@ -1,0 +1,99 @@
+.container {
+  background-color: #ffffff;
+}
+
+.container-main {
+  max-width: 1420px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 58px;
+  display: flex;
+  align-items: center;
+  gap: 118px;
+}
+
+.img-grp {
+  position: relative;
+}
+
+.img-grp img:first-child {
+  position: absolute;
+  top: 34px;
+  left: 34px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #25508c;
+  padding-bottom: 21px;
+  border-bottom: 2px solid #f5f5f5;
+  width: max-content;
+  padding-right: 41px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #132a4b;
+}
+
+.desc {
+  margin-top: 23px;
+}
+.desc2 {
+  margin-top: 26px;
+}
+
+.avatar-container {
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar-container h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #25508c;
+  margin-right: 25px;
+}
+
+.avatar-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+.avatar-img div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatar-img div:nth-child(2) img {
+  width: 99px;
+  height: 99px;
+}
+
+.avatar-img div::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -45px;
+  font-family: FiraGO;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #25508c;
+  max-width: 123px;
+}
+
+.avatar-img div:nth-child(2)::after {
+  color: #f9981b;
+}
